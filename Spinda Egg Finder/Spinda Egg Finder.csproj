@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>spindaegg.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -76,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -89,6 +93,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spot4shiny.png" />
+    <None Include="Resources\spot4.png" />
+    <None Include="Resources\spot3shiny.png" />
+    <None Include="Resources\spot3.png" />
+    <None Include="Resources\spot2shiny.png" />
+    <None Include="Resources\spot2.png" />
+    <None Include="Resources\spot1shiny.png" />
+    <None Include="Resources\spot1.png" />
+    <None Include="Resources\spindapogshiny.png" />
+    <None Include="Resources\spindapog.png" />
+    <None Include="Resources\spindaoverlayshiny.png" />
+    <None Include="Resources\spindaoverlay.png" />
+    <Content Include="spindaegg.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

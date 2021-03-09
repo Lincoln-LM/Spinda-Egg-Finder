@@ -62,7 +62,7 @@
             // 
             // PainterPIDBox
             // 
-            this.PainterPIDBox.Location = new System.Drawing.Point(57, 357);
+            this.PainterPIDBox.Location = new System.Drawing.Point(58, 357);
             this.PainterPIDBox.Name = "PainterPIDBox";
             this.PainterPIDBox.Size = new System.Drawing.Size(100, 20);
             this.PainterPIDBox.TabIndex = 0;
