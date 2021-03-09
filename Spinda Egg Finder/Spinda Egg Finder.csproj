@@ -107,6 +107,8 @@
     <None Include="Resources\spindapog.png" />
     <None Include="Resources\spindaoverlayshiny.png" />
     <None Include="Resources\spindaoverlay.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="spindaegg.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
